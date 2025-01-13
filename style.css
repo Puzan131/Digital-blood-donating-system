@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100vw;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+.navbar{
+    display: flex;
+    height: 6vw;
+    background-color: #CF3D3C;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+
+}
+.sticky{
+    opacity: 0.8;
+    transition-duration: 0.25s;
+}
+.hide{
+    height: 0;
+    opacity: 0;
+}
+.navbar span{
+    font-weight: 700;
+    color: white;
+}
+.nav-left{
+display: flex;
+justify-content:space-around;
+align-items: center;
+width: 50%;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.nav-left img{
+    height: 5vw;
+    width: 8vw;
+}
+.nav-right button{
+ padding: 0.5vw 1.5vw;
+ border-radius: 20px;
+ outline: none;
+ font-family: Montserrat;
+ cursor: pointer;
+}
+.nav-right #button1{
+border: none;
+color: #CF3D3C;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+.nav-right #button2{
+    border: 2px solid white;
+    background-color: #CF3D3C;
+    color: white;
+}
+
+.hero-center{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+
+}
+
+.hero-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-right{
+    width: 50%;
+    height: 100%;
+}
+.hero-heading{
+    width: 70%;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+.hero-heading span{
+    font-family: Montserrat !important;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nepal{
+    color: #CF3D3C !important;
+}
+.hero-right img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: 1;
+}
+.section-2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.section-2-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #faebd7;
+}
+.section-2-left h1{
+    width: 60%;
+    text-align: center;
+    font-family: Poppins;
+}
+.section-2-left h1:nth-child(1){
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+.bg-red{
+    background-color: #CF3D3C;
+    color: white;
+    padding: 0.25vw 0.5vw;
+}
+
+.section-2-right{
+  width:50% ;
+  height: 100%;
+  position: relative;
+}
+.section-2-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.section-2-right i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    scale: 4;
+    cursor: pointer;
+}
+.section-3{
+    height: 70vh;
+    width: 100%;;
+    display: flex;
+    position: relativeffff
+}
+.section-3-left{
+    width: 50vw;
+    height: 100%;
+}
+.section-3-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.section-3-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+    margin-left: 5vw;
+}
+.section-3-right p{
+    width: 70%;
+    font-family: Poppins;
+    font-weight: 200;
+    line-height: 30px;
+
+}
+.section-3-right h1{
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+.custom-shape-divider-top-1736587084 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1736587084 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 207px;
+}
+
+.custom-shape-divider-top-1736587084 .shape-fill {
+    fill: #ffff;
+}
+.blood-stories{
+    background-color: #CF3D3C;
+    position: relative;
+    width: 100%;
+}
+.blood-stories-header{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+}
+.blood-stories-header h1{
+    text-align: center;
+    font-family: Montserrat;
+}
+.blood-stories-header p{
+ margin: 0 4vw;
+ font-family: Poppins;
+ text-align: center;
+}
+.custom-shape-divider-top-1736587805 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1736587805 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 417px;
+}
+
+.custom-shape-divider-top-1736587805 .shape-fill {
+    fill: #CF3D3C;
+}
+
+.blood-stories-body{
+    position: relative;
+    background-color: white;
+    height: 120vh;
+}
+.card{
+    width: 23vw;
+}
+.card img{
+    width:100%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    gap: 1vw;
+}
+.row1,.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.donate{
+    height: 75vh;
+    width: 100%;
+    background-image: url("https://hamrolifebank.com/img/Test/v2v.png");
+    background-size: cover;
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-left: 30vw;
+    justify-content: center;
+    gap: 2vh;
+    color: white;
+}
+.donate h1{
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.donate p{
+width: 40%;
+text-align: center;
+font-family: poppins;
+}
+.donate button{
+  padding: 1.5vw 2.5vw;
+  margin: 1vw;
+  border-radius: 5px;
+  border: none;
+  font-family: Montserrat;
+  font-weight: 500;
+    cursor: pointer;
+}
+.donate #button1{
+    color:#CF3D3C ;
+}
+.donate #button2{
+    background-color: transparent;
+    color: white;
+    border : 2px solid white;
+}
+.contact{
+    height: 75vh;
+    background-image: url("https://rumsan.nyc3.cdn.digitaloceanspaces.com/hamro-lifebank/website/images/nepal-new-map.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 4vw;
+}
+.contactInfo{
+    display: flex;
+    justify-content: start;
+    padding-top: 10vh;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    gap: 4vh;
+}
+.contactInfo h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.contactInfo h5{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: gray;
+    line-height: 5vh;
+}
+.footer{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    color: gray;
+}
+
+.footer h5{
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+/* Css for donate.html */
+.donateBlood-container{
+    background-image: url("https://hamrolifebank.com/css/assets/images/background-health.png");
+    background-size: contain;
+    height: 120vh;
+}
+.donate-header{
+    height: 20vh;
+    background-color: #CF3D3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate-header h1{
+    color: white;
+    font-family: montserrat;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#donate-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-box{
+    height: 85%;
+    width: 75%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-box{
+  background-color: #CF3D3C;
+  height: 96%;
+  width: 97.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-card{
+    background-color: white;
+    width: 82%;
+    height: 96%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.card-img img{
+  scale: 0.85;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+
+}
+.form input, .form select{
+    width: 80%;
+    padding: 0.6vw 1.6vw;
+    font-family: poppins;
+    color: gray;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 5px;
+}
+.form h1{
+    font-family: Montserrat;
+}
+.form button{
+  background-color: #CF3D3C;
+  color: white;
+  font-family: poppins;
+  padding: 0.5vw 2.5vw;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.form label{
+    font-family: montserrat;
+}
